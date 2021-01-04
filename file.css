@@ -1,0 +1,67 @@
+/*Applicazione font e distanza dai margini di tutti gli span 0*/
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0 0 0 0;
+}
+/*Sfondo principale che riempe la pagina*/
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*Riquadro davanti allo sfondo, il margine generale viene sovrascritto*/
+section {
+  margin: 2% 10% 10% 10%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding: 80px 60px 80px 60px;
+}
+/*Ridimensionamento Logo, si evita ad eventuali altri span img di essere ridimensionati*/
+header > img {
+  width: 250px;
+}
+/*Slogan*/
+h1 {
+  color: rgb(0, 221, 0);
+  font-size: 35px;
+}
+/*Si allina la parte superiore*/
+header, nav {
+  text-align: center;
+}
+/*Riquadro attorno alla selezione*/
+nav {
+  background-color: rgb(0, 221, 0);
+  border: solid rgb(0, 221, 0) 12px;
+}
+/*Colore testo della parte principale*/
+main {
+  color: white;
+}
+/*Distanziamento dall' alto degli identificativi, sovrascrive il margine generale*/
+h2 {
+  margin-top: 20px;
+}
+/*Modifica estetica dei punti*/
+ul {
+list-style-type: square;
+}
+/*Altezza barre della carica*/
+div:nth-child(4) {
+    min-height: 1.50em;
+}
+/*Barra carica 1*/
+.charge1 {
+  background-color: rgb(245, 180, 83);
+  width: 40%;
+}
+/*Barra carica 2*/
+.charge2 {
+  background-color: rgb(30, 195, 30);
+  width: 70%;
+}
+/*Barra carica 3*/
+.charge3 {
+  background-color: rgb(190, 65, 65);
+  width: 18%;
+}
